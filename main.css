@@ -29,6 +29,9 @@ h1 {
 video {
   width: 100%;
 }
+iframe {
+  min-height: 500px;
+}
 .showcase {
   height: 100vh;
   display: flex;
@@ -76,37 +79,11 @@ video {
   z-index: 2;
 }
 
-.btn {
-  display: inline-block;
-  padding: 10px 30px;
-  background: var(--primary-color);
-  color: #fff;
-  border-radius: 5px;
-  border: solid #fff 1px;
-  margin-top: 25px;
-  opacity: 0.7;
-}
-
-.btn:hover {
-  transform: scale(0.98);
-}
-
 #about {
   padding: 40px;
   text-align: center;
 }
-
-#about p {
-  font-size: 1.2rem;
-  max-width: 600px;
-  margin: auto;
-}
-
 #about h2 {
   margin: 30px 0;
   color: var(--primary-color);
-}
-
-.social a {
-  margin: 0 5px;
 }
